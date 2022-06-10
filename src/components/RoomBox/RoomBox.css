@@ -1,0 +1,13 @@
+.roomBoxContainer{
+    border : 1px solid #242526;
+    background-color: #242526;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    width : 500px;
+    overflow-x: scroll;
+}
+
+.roomBoxContainer__createRoom{
+    margin-right: 8px;
+}

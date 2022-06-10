@@ -1,0 +1,59 @@
+.rightNavBarContainer{
+    width : 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    padding-right: 15px;
+}
+
+/* .rightNavBarContainer__userAvatarAndProfile{
+    display: flex;
+    align-items: center;
+    width : 100px;
+    height : 35px;
+    border-radius: 20px;
+    border: 1px solid #242526;
+    cursor: pointer;
+} */
+
+.rightNavBarContainer__userAvatarAndProfile:hover{
+    border: 1px solid #3a3b3c;
+    background-color: #3a3b3c;
+}
+
+.imageContainer{
+    height: 40px;
+    width : 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    object-fit: contain;
+}
+
+.rightNavBarContainer__userAvatarAndProfile__profilePicture{
+    height: 100%;
+    width : 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position : 0 0;
+}
+
+.userAvatarAndProfile__userName{
+    color : #d5d7dc;
+}
+
+.widgetsIcon , .chatIcon , .notificationsIcon , .arrowDropDownIcon{
+    color : #e4e6eb;
+    border: 2px solid #3a3b3c;
+    padding : 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #3a3b3c;
+}
+
+.widgetsIcon:hover , .chatIcon:hover , .notificationsIcon:hover , .arrowDropDownIcon:hover{
+    filter : brightness(1.5);
+}
+
+
+

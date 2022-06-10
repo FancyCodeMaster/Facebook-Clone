@@ -1,0 +1,38 @@
+.storiesBox{
+    height : 200px;
+    min-width : 120px;
+    background: url('../../static/images/DSC_4240.JPG');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 8px;
+}
+
+
+.storiesBox__userAvatar{
+    position: relative;
+    top : 8px;
+    left : 8px;
+    border: 2px solid #2374e1;
+    width : 40px;
+    height : 40px;
+    padding : 2px;
+    border-radius: 50%;
+    background-color: #2374e1;
+}
+
+.storiesBox__userName{
+    position: relative;
+    top : 8px;
+    left : 8px;
+    color : #fff;
+}
+
+.storiesBox__userName h4{
+    font-size: 15px;
+    font-weight: 500;
+}

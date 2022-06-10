@@ -1,0 +1,13 @@
+.storiesContainer{
+    display: flex;
+    height : 200px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    padding-right: 20px;
+    width : 500px;
+    overflow-x: scroll;
+}
+
+.storiesContainer::-webkit-scrollbar{
+    display: none;
+}

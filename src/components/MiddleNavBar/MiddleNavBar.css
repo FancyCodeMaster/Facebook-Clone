@@ -1,0 +1,21 @@
+.middleNavBarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.middleNavBarContainer__homeIcon , .middleNavBarContainer__watchIcon , .middleNavBarContainer__marketPlaceIcon , .middleNavBarContainer__groupsIcon , .middleNavBarContainer__gamingIcon{
+    border : 1px solid #242526;
+    padding : 15px 40px;
+    border-radius: 7px;
+    color : #a3a6aa;
+    /* font-size: 90px; */
+    cursor: pointer;
+}
+
+.middleNavBarContainer__homeIcon:hover , .middleNavBarContainer__watchIcon:hover , .middleNavBarContainer__marketPlaceIcon:hover , .middleNavBarContainer__groupsIcon:hover , .middleNavBarContainer__gamingIcon:hover{
+    border-color: #3a3b3c;
+    background-color: #3a3b3c;
+}
+

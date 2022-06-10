@@ -1,0 +1,26 @@
+.leftNavBarContainer{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    width : 300px;
+    margin-left: 10px;
+}
+
+.fb-logo{
+    height : 40px;
+    width : 40px;
+    object-fit: contain;
+    border-radius: 100px;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.search_inputBox{
+    padding : 12px 18px;
+    border-radius: 20px;
+    width : 200px;
+    background-color: #3a3b3c;
+    border: 1px solid #3a3b3c;
+    color : #9ba7a0;
+    outline: none;
+}
